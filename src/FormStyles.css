@@ -1,0 +1,63 @@
+.felx {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: rgb(60, 90, 0); */
+  /* flex-direction: column; */
+  flex-direction: column;
+}
+
+#loan-form {
+  background-color: rgb(51, 0, 170);
+  color: white;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.4);
+  width: 50%;
+  /* flexdirection: column; */
+}
+
+label {
+  margin-top: 10px;
+}
+
+input,
+select {
+  width: 100%;
+  height: 30px;
+  border: none;
+}
+
+#Submiteloan {
+  margin-top: 20px;
+  border: none;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  background: rgb(211, 0, 127);
+  color: white;
+}
+
+hr {
+  width: 100%;
+}
+
+#model {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.55);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#modelContent {
+  background: white;
+  width: 90%;
+  color: green;
+}
+
+.disabled {
+  background: gray !important;
+}
